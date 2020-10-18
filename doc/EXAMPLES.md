@@ -1,6 +1,8 @@
 # Configuration Examples
 
-- **[⬆ Configuration Examples](https://github.com/trimstray/nginx-admins-handbook#toc-configuration-examples-2)**
+Go back to the **[⬆ Table of Contents](https://github.com/trimstray/nginx-admins-handbook#table-of-contents)** or **[⬆ What's next?](https://github.com/trimstray/nginx-admins-handbook#whats-next)** section.
+
+- **[≡ Configuration Examples](#examples)**
   * [Reverse Proxy](#reverse-proxy)
     * [Installation](#installation)
     * [Configuration](#configuration)
@@ -166,6 +168,7 @@ for _module in $(ls "${_mod_dir}/") ; do echo -en "load_module\t\t${_mod_dir}/$_
 include /etc/nginx/master/_server/domain.com/servers.conf;
 include /etc/nginx/master/_server/domain.com/backends.conf;
 ```
+
 ###### Init domain directory
 
 ```bash
